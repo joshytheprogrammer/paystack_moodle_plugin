@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'enrol_paystack';
-$plugin->release = '0.1.0';
-$plugin->version = 2024031402;
-$plugin->requires = 2019111800;
-$plugin->maturity = MATURITY_ALPHA;
+// Defines message providers for the Paystack enrolment plugin.
+// This setup allows the plugin to send notifications within Moodle.
+$messageproviders = [
+    'paystack_enrolment' => [],
+];

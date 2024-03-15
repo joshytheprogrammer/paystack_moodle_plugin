@@ -24,8 +24,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'enrol_paystack';
-$plugin->release = '0.1.0';
-$plugin->version = 2024031402;
-$plugin->requires = 2019111800;
-$plugin->maturity = MATURITY_ALPHA;
+/**
+ * Custom uninstallation procedure.
+ */
+function xmldb_enrol_paystack_uninstall() {
+
+    return true;
+}
