@@ -1,8 +1,6 @@
 # Paystack #
 
-TODO Describe the plugin shortly here.
-
-TODO Provide more detailed description here.
+Paystack is a Moodle plugin designed to integrate the Paystack payment gateway into your Moodle site, allowing users to make payments for course enrollments seamlessly.
 
 ## Installing via uploaded ZIP file ##
 
@@ -14,18 +12,20 @@ TODO Provide more detailed description here.
 
 ## Installing manually ##
 
-The plugin can be also installed by putting the contents of this directory to
+The plugin can also be installed manually by following these steps:
 
-    {your/moodle/dirroot}/enrol/paystack
+1. Download the ZIP file containing the plugin code.
+2. Extract the contents of the ZIP file.
+3. Upload the extracted folder to the following directory on your Moodle server:
 
-Afterwards, log in to your Moodle site as an admin and go to _Site administration >
-Notifications_ to complete the installation.
+    `{your/moodle/dirroot}/enrol/paystack`
 
-Alternatively, you can run
+4. Log in to your Moodle site as an admin and go to _Site administration >
+   Notifications_ to complete the installation.
 
-    $ php admin/cli/upgrade.php
+Alternatively, you can run the following command from the Moodle server's command line to complete the installation:
 
-to complete the installation from the command line.
+    `$ php admin/cli/upgrade.php`
 
 ## License ##
 
